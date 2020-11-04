@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cons_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/BarStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_perm_data_setting_24"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Uc Peeps"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:id="@+id/sv_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_main">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons_sv_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="32dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_add_lecturer_main"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cons_cv_add_lecturer_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_cv_add_lecturer_main"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="32dp"
+                        android:background="@drawable/bg_circle_primary"
+                        android:contentDescription="@string/img"
+                        android:padding="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_teacher_white" />
+
+                    <TextView
+                        android:id="@+id/txt_add_lecturer_main"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/addlecturer"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/img_cv_add_lecturer_main"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_cv_add_lecturer_main"
+                        app:layout_constraintTop_toTopOf="@+id/img_cv_add_lecturer_main" />
+
+                    <View
+                        android:id="@+id/divh_cv_add_lecturer_main"
+                        android:layout_width="0dp"
+                        android:layout_height="4dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/divv_cv_add_lecturer_main"
+                        android:layout_width="4dp"
+                        android:layout_height="0dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_add_course_main"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_add_lecturer_main">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cons_cv_add_course_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_cv_add_course_main"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="32dp"
+                        android:background="@drawable/bg_circle_primary"
+                        android:contentDescription="@string/img"
+                        android:padding="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+                    <TextView
+                        android:id="@+id/txt_add_course_main"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/addcourse"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/img_cv_add_course_main"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_cv_add_course_main"
+                        app:layout_constraintTop_toTopOf="@+id/img_cv_add_course_main" />
+
+                    <View
+                        android:id="@+id/divh_cv_add_course_main"
+                        android:layout_width="0dp"
+                        android:layout_height="4dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <View
+                        android:id="@+id/divv_cv_add_course_main"
+                        android:layout_width="4dp"
+                        android:layout_height="0dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_add_student_main"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_add_course_main">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cons_cv_add_student_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_cv_add_student_main"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="32dp"
+                        android:background="@drawable/bg_circle_primary"
+                        android:contentDescription="@string/img"
+                        android:padding="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_baseline_person_add_24" />
+
+                    <TextView
+                        android:id="@+id/txt_add_student_main"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/regstudent"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/img_cv_add_student_main"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_cv_add_student_main"
+                        app:layout_constraintTop_toTopOf="@+id/img_cv_add_student_main" />
+
+                    <View
+                        android:id="@+id/divh_cv_add_student_main"
+                        android:layout_width="0dp"
+                        android:layout_height="4dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/divv_cv_add_student_main"
+                        android:layout_width="4dp"
+                        android:layout_height="0dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_login_student_main"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_add_student_main">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cons_cv_login_student_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_cv_login_student_main"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="32dp"
+                        android:background="@drawable/bg_circle_primary"
+                        android:contentDescription="@string/img"
+                        android:padding="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_baseline_input_24" />
+
+                    <TextView
+                        android:id="@+id/txt_login_student_main"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/loginstudent"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/img_cv_login_student_main"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_cv_login_student_main"
+                        app:layout_constraintTop_toTopOf="@+id/img_cv_login_student_main" />
+
+                    <View
+                        android:id="@+id/divh_cv_login_student_main"
+                        android:layout_width="0dp"
+                        android:layout_height="4dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <View
+                        android:id="@+id/divv_cv_login_student_main"
+                        android:layout_width="4dp"
+                        android:layout_height="0dp"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

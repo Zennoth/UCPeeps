@@ -1,0 +1,315 @@
+<resources>
+    <string name="app_name">UC Peeps</string>
+    <string name="no_data">No data</string>
+    <string name="loading">loading. . .</string>
+    <string name="txtnull">-</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="addlecturer">Add Lecturer</string>
+    <string name="editlecturer">Edit Lecturer</string>
+    <string name="addcourse">Add Course</string>
+    <string name="regstudent">Register Student</string>
+    <string name="loginstudent">Login as Student</string>
+    <string name="editstudent">Edit Student</string>
+    <string name="version">version 1.0</string>
+    <string name="title_activity_student_area">StudentArea</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="schedule">Schedule</string>
+    <string name="course">Course</string>
+    <string name="profile">Profile</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="fullname">Full Name</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="gender">Gender</string>
+    <string name="expertise">Expertise</string>
+    <string name="coursesubject">Course Subject</string>
+    <string name="day">Day</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nim">NIM</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="datalect">Lecturer Data</string>
+    <string name="lecturerdata">Lecturer Data</string>
+    <string name="lecturer_list">Lecturer List</string>
+    <string name="img">img</string>
+    <string name="expertisee">Expertise:</string>
+    <string name="lectdetail">Lecturer Detail</string>
+    <string name="labelnim">NIM</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="studentdata">Student Data</string>
+    <string name="studentlist">Student List</string>
+    <string name="toolbarstudmain">Student App</string>
+    <string name="logout">Log out</string>
+    <string name="editcourse">Edit Course</string>
+
+    <string-array name="day_array">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="jam_start_array">
+        <item>07:30:00</item>
+        <item>08:00:00</item>
+        <item>08:30:00</item>
+        <item>09:00:00</item>
+        <item>09:30:00</item>
+        <item>10:00:00</item>
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+    </string-array>
+
+    <string-array name="jam_end0730">
+        <item>08:00:00</item>
+        <item>08:30:00</item>
+        <item>09:00:00</item>
+        <item>09:30:00</item>
+        <item>10:00:00</item>
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end0800">
+        <item>08:30:00</item>
+        <item>09:00:00</item>
+        <item>09:30:00</item>
+        <item>10:00:00</item>
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end0830">
+        <item>09:00:00</item>
+        <item>09:30:00</item>
+        <item>10:00:00</item>
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end0900">
+        <item>09:30:00</item>
+        <item>10:00:00</item>
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end0930">
+        <item>10:00:00</item>
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1000">
+        <item>10:30:00</item>
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1030">
+        <item>11:00:00</item>
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1100">
+        <item>11:30:00</item>
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1130">
+        <item>12:00:00</item>
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1200">
+        <item>12:30:00</item>
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1230">
+        <item>13:00:00</item>
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1300">
+        <item>13:30:00</item>
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1330">
+        <item>14:00:00</item>
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1400">
+        <item>14:30:00</item>
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1430">
+        <item>15:00:00</item>
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1500">
+        <item>15:30:00</item>
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1530">
+        <item>16:00:00</item>
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1600">
+        <item>16:30:00</item>
+        <item>17:00:00</item>
+    </string-array>
+    <string-array name="jam_end1630">
+        <item>17:00:00</item>
+    </string-array>
+
+</resources>

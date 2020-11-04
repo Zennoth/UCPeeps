@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "282855339314",
+    "firebase_url": "https://ucpeeps-72844.firebaseio.com",
+    "project_id": "ucpeeps-72844",
+    "storage_bucket": "ucpeeps-72844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282855339314:android:520de72a837b4625d7d32b",
+        "android_client_info": {
+          "package_name": "com.uc.myfirebaseapss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282855339314-ig2vnei94o6dqm02strq5e9g28m6k7m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRjlSFWf1q8iVeYSG179oIvWzHaCY0q24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282855339314-ig2vnei94o6dqm02strq5e9g28m6k7m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
